@@ -7,7 +7,12 @@
     border-radius: 10px 10px;
 }
 
-#toggle:checked ~h3 {
+.disabled_button {
+    background: rgba(42, 56, 65, 0.82);
+    color: #2f89fc;
+}
+
+#toggle:checked ~ h3 {
     height: 40px;
 }
 
@@ -28,10 +33,11 @@ nav h3 {
     border-top-left-radius: 10px 10px;
 }
 
-nav:hover h3{
+nav:hover h3 {
     transform: translateY(-2px);
 }
-nav:hover:active h3{
+
+nav:hover:active h3 {
     transform: translateY(10px);
 }
 
@@ -46,7 +52,7 @@ input {
     height: 40px;
 }
 
-#toggle:checked ~ul {
+#toggle:checked ~ ul {
     height: 0%;
 }
 
@@ -60,11 +66,12 @@ nav ul {
     text-align: right;
     text-align: center;
     transition: all .4s ease-out;
-    height: 150px;
+    height: 180px;
     border-bottom-right-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
 
 }
+
 nav ul li {
     border-radius: 0px;
     position: relative;
@@ -91,7 +98,6 @@ nav ul a:hover {
 nav ul a {
     display: block;
     color: #ffff;
-    text-transform: lowercase;
     font-size: 18px;
     font-weight: 200;
     text-decoration: none;
