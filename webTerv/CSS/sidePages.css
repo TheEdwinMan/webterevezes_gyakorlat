@@ -13,11 +13,11 @@
 }
 
 #toggle:checked ~ h3 {
-    height: 40px;
+    border-radius: 10px;
 }
 
 nav h3 {
-    border-radius: 2px;
+    border-radius: 10px 10px 2px 2px;
     position: relative;
     height: 40px;
     text-transform: uppercase;
@@ -29,8 +29,6 @@ nav h3 {
     align-items: center;
     transition: all .4s;
     background-color: #2A3942;
-    border-top-right-radius: 10px 10px;
-    border-top-left-radius: 10px 10px;
 }
 
 nav:hover h3 {
