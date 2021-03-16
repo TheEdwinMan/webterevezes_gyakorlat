@@ -2,10 +2,12 @@
     top: 20px;
     height: 100%;
     width: 60%;
+    float: left;
     position: relative;
     margin: 20px auto;
     background-color: rgba(0,0,0,0.3);
     border: 1.5px solid black;
+    overflow: hidden;
 }
 
 .contentbox h3 {
@@ -48,13 +50,17 @@
 
 .sidebox {
     top: 20px;
-    right: 20px;
     height: 1500px;
-    width: 18%;
-    position: absolute;
-    margin: 20px auto;
+    width: 17.5%;
+    position: relative;
+    margin: 20px 1%;
     background-color: rgba(0,0,0,0.3);
     border: 1.5px solid black;
+    float: left;
+    overflow: hidden;
+}
+.sidebox th{
+    margin: 0;
 }
 
 .sidebox img{
@@ -68,4 +74,24 @@
     text-align: center;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
+}
+
+#invisible{
+    border: hidden;
+    opacity: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+#invisible img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
 }
