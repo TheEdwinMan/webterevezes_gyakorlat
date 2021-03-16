@@ -7,6 +7,14 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        body {
+            background-image: url("../mainPage/img/fifa.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
 
 </head>
 
@@ -15,21 +23,24 @@
 <nav class="menu">
 
     <input id="toggle" type="checkbox" checked>
-    <h3>Menu</h3>
+    <h3><img src="../mainPage/img/menu_icon.png" width="40" height="40">  Menu</h3>
     <ul>
 
-        <li><a href="../mainPage/main.html">Főoldal</a></li>
-        <li><a href="./fPage.html">Game 01</a></li>
+        <li><a href="../mainPage/main.html"><img src="../mainPage/img/home_icon.png" width="20" height="20">  FŐOLDAL</a></li>
+        <li><a href="./fPage.html"><img src="../mainPage/img/ea.png" width="20" height="20">  FIFA</a></li>
         <li><a class="disabled_button">Game 02</a></li>
         <li><a href="./tPage.html">Game 03</a></li>
         <li><a href="./foPage.html">Game 04</a></li>
 
     </ul>
-
 </nav>
 
 <div id="content">
-    <p>2</p>
+    <div class="contentbox">
+        <h3>Cím</h3>
+        <h2>Alcím</h2>
+        <p>2</p>
+    </div>
 </div>
 
 </body>
