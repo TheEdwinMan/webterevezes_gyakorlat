@@ -1,6 +1,9 @@
 body{
     margin-left: 0;
     margin-right: 0;
+    min-width: 1000px;
+    width: auto !important;
+    width: 1000px;
 }
 .menu {
     float: left;
@@ -55,7 +58,7 @@ nav:hover:active h3 {
     transform: translateY(10px);
     background-color: rgba(67, 124, 255,0.3);
 }
-input {
+.menu input {
     margin: 0;
     position: absolute;
     left: 0;

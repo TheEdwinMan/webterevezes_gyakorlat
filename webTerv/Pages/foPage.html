@@ -5,41 +5,114 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Main Page</title>
+    <title>Rocket League</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/menu_styles.css">
     <style>
         body {
-            background-image: url("../IMG/fifa.png");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
+            margin: 0;
         }
+
+
+
+
+
     </style>
 
 </head>
 
 <body>
-
-<nav class="menu">
-
+<div style="position: fixed; z-index: -99; width: 100%; height: 120%">
+    <iframe frameborder="0" height="100%" width="100%" style="pointer-events: none"
+            src="https://www.youtube.com/embed/WRw84h5XbX0?playlist=WRw84h5XbX0&loop=1&autoplay=1&mute=1&controls=0&showinfo=0">
+    </iframe>
+</div>
+<nav class="menu" style="margin-top: 28px">
     <input id="toggle" type="checkbox" checked>
-    <h3><img src="../IMG/menu_icon.png" width="40" height="40">  Menu</h3>
+    <h3><img src="../IMG/menu_icon.png" width="40" height="40"> Menu</h3>
     <ul>
 
-        <li><a href="../mainPage/main.html"><img src="../IMG/home_icon.png" width="20" height="20">  FŐOLDAL</a></li>
-        <li><a href="./fPage.html"><img src="../IMG/ea.png" width="20" height="20">  FIFA</a></li>
-        <li><a href="./sPage.html"><img src="../IMG/csgo_icon.png" width="20" height="20">  CS:GO</a></li>
-        <li><a href="./tPage.html"><img src="../IMG/rust_icon.png" width="20" height="20">  RUST</a></li>
-        <li><a class="disabled_button">Game 04</a></li>
+        <li><a href="../mainPage/main.html"><img src="../IMG/home_icon.png" width="20" height="20"> FŐOLDAL</a></li>
+        <li><a href="./fPage.html"><img src="../IMG/ea.png" width="20" height="20"> FIFA</a></li>
+        <li><a href="./sPage.html"><img src="../IMG/csgo_icon.png" width="20" height="20"> CS:GO</a></li>
+        <li><a href="./tPage.html"><img src="../IMG/rust_icon.png" width="20" height="20"> RUST</a></li>
+        <li><a class="disabled_button"><img src="../IMG/rl_icon.png" width="20" height="20"> Rocket League</a></li>
 
     </ul>
 </nav>
 
-<div class="contentbox">
-    <h3>Cím</h3>
-    <h2>Alcím</h2>
-    <p>4</p>
+<div class="contentbox" style="margin-top: 28px">
+    <h3>Rocket League</h3>
+    <h2>Unreal Engine 3</h2>
+    <p>
+        A Psyonix Studios akciódús sportjáték a futball és az autóversenyzés egyedi keverékét kínálj a játékosok
+        számára, ugyanis akrobatikus ugratásokra képes szuperjárgányokat irányítva kell egy hatalmas labdára hasonlító
+        játékszert az ellenfél kapujába juttatnunk benne.
+    </p>
+    <h2>Játékmenet</h2>
+    <p>
+        <br><img src="../IMG/rl/rl_cars.jpg" width="500" height="250"><br><br>
+        A játékmenet során lehetőségünk van egy rövid egyjátékos móddal próbára tenni a tudásunkat és új tartalmakat
+        feloldva fejlődni, ám a valódi játék a multiplayerrel kezdődik. Ez jelenti a Rocket League lényegét, hiszen
+        villámgyors matchmaking gondoskodik arról, hogy pörgős, ötperces meccsekben élvezzük az autós focit.
+    </p>
+    <div class="wrap_coll">
+        <input id="collapsible" class="toggle" type="checkbox">
+        <input id="collapsible" class="toggle" type="checkbox">
+        <h2><label for="collapsible" class="lbl-toggle">Játékmódok</label></h2>
+        <div class="collapsible-content">
+            <table style="width:100%">
+                <tr>
+                    <th><h1>Barátságos mérkőzések</h1><a href="https://youtu.be/mxNvw3awxpw" target="_blank"><img
+                            class="rl_img"
+                            src="../IMG/rl/rl_friend.jpg"
+                            width="500"
+                            height="280"></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th><h1>Rangsorolt mérkőzések</h1><a href="https://youtu.be/ndg1A7Hbt8o" target="_blank"><img
+                            class="rl_img"
+                            src="../IMG/rl/rl_ranked.jpg"
+                            width="500"
+                            height="280"></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th><h1>Exhibition (helyi játék)</h1><a href="https://youtu.be/SadXx6KjK-M" target="_blank"><img
+                            class="rl_img" src="../IMG/rl/rl_exhi.jpg" width="500" height="280"></a></th>
+                </tr>
+                <tr>
+                    <th><h1>Bajnokság</h1><a href="https://youtu.be/BquBZSV72iY" target="_blank"><img class="rl_img"
+                                                                                                      src="../IMG/rl/rl_tourn.jpg"
+                                                                                                      width="500"
+                                                                                                      height="280"></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th><h1>Rumble játékmód</h1><a href="https://youtu.be/XjxVM61ZS2g" target="_blank"><img
+                            class="rl_img"
+                            src="../IMG/rl/rl_rumble.jpg"
+                            width="500"
+                            height="280"></a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <p>
+        A Rocket League az ötletek és a megvalósítás, de leginkább az élmény terén simán versenybe száll a sportág
+        komolyabb képviselőivel, ez pedig már most meglátszik a játékosközösségen is, miközben szerveződnek az e-kupák,
+        amik augusztusban veszik kezdetüket. Amennyiben sikerül továbbra is extra tartalmakat kreálni (szóba kerültek
+        ingyenes pályák és egyéb, akár fizetős kiegészítők), a lendületből pedig nem veszít a fejlesztőcsapat, akkor
+        minden idők egyik legnagyobb indie-sikere van kilátásban, ami élő közvetítésekkel és folyamatos fejlesztéssel
+        marad majd az élbolyban. Ráadásként nem elképzelhetetlenek az újabb játékmódok sem, amelyeknél a power-upok
+        bevezetésével lesz még akciódúsabbá, pergősebbé téve az egyébként is remek játékmenet, hogy az eredeti
+        Battle-Cars fantáziajellegű stadionjairól ne is beszéljünk, elvégre azok is feldobnák az összképet. A lehetőség
+        mindenesetre mindenre megvan, a fejlesztők pedig élnek is majd velük, legalábbis reméljük, hiszen az esély
+        megvan az egyelőre még elképzelhetetlenül nagy sikerre.
+    </p>
+    <h2 style="font-size:20px; padding: 5.5px 0">Készítette: Ogunde Edwin</h2>
 </div>
 
 </body>
