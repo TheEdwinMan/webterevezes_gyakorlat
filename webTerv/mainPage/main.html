@@ -22,38 +22,41 @@
 </head>
 
 <body>
-
+<main>
 <nav class="menu">
-
+	<input type="hidden" name="Hidden tipus" value="Ezt nem láthatod">
     <input id="toggle" type="checkbox" checked>
-    <h3><img src="../IMG/menu_icon.png" width="40" height="40"> Menu</h3>
+    <h3><img alt="icon" src="../IMG/menu_icon.png" width="40" height="40"> Menu</h3>
     <ul>
 
-        <li><a class="disabled_button"><img src="../IMG/home_icon.png" width="20" height="20"> FŐOLDAL</a></li>
-        <li><a href="../Pages/fPage.html"><img src="../IMG/ea.png" width="20" height="20"> FIFA</a></li>
-        <li><a href="../Pages/sPage.html"><img src="../IMG/csgo_icon.png" width="20" height="20"> CS:GO</a></li>
-        <li><a href="../Pages/tPage.html"><img src="../IMG/rust_icon.png" width="20" height="20"> RUST</a></li>
-        <li><a href="../Pages/foPage.html"><img src="../IMG/rl_icon.png" width="20" height="20"> Rocket League</a></li>
+        <li><a class="disabled_button"><img alt="icon" src="../IMG/home_icon.png" width="20" height="20"> FŐOLDAL</a></li>
+        <li><a href="../Pages/fPage.html"><img alt="icon" src="../IMG/ea.png" width="20" height="20"> FIFA</a></li>
+        <li><a href="../Pages/sPage.html"><img alt="icon" src="../IMG/csgo_icon.png" width="20" height="20"> CS:GO</a></li>
+        <li><a href="../Pages/tPage.html"><img alt="icon" src="../IMG/rust_icon.png" width="20" height="20"> RUST</a></li>
+        <li><a href="../Pages/foPage.html"><img alt="icon" src="../IMG/rl_icon.png" width="20" height="20"> Rocket League</a></li>
 
     </ul>
 
 </nav>
-
 
 <div class="contentbox">
     <h3>Videójátékok</h3>
     <h2>A videójátékok hatása az agyunkra</h2>
     <br><br>
     <p>
-        A videójátékoknak vegyes hatása lehet az emberi agyra tekintve. A <a
-            href="https://www.youtube.com/watch?v=FlDJBBys0Bg&t=41s&ab_channel=T%C3%ADzeslista">Tízeslistától</a> össze
+        A videójátékoknak vegyes hatása lehet az emberi agyra tekintve. A </p>
+        <nav>
+		  <a href="https://www.youtube.com/watch?v=FlDJBBys0Bg&t=41s&ab_channel=T%C3%ADzeslista"><p>Tízeslistától</p></a>
+		</nav>
+		<p>össze
         is szedtek néhány ilyen példát, amit a linkre kattintva meg is tekinthetünk.
     </p>
     <h2>Történelem</h2>
     <h1>Arcade</h1>
     <p>
-        <br><img src="../IMG/arcade.jpg" width="500" height="250"><br><br>
-        Arcade / árkád gépeknek nevezzük a játéktermi gépeket. Ezek kizárólag játéktermekben találhatók meg. Egyetlen
+        <br>
+        <input type="image" name="arcade_pic" src="../IMG/arcade.jpg" alt="Arcade" width="500" height="250"><br><br>
+        <mark> Arcade / árkád </mark> gépeknek nevezzük a játéktermi gépeket. Ezek kizárólag játéktermekben találhatók meg. Egyetlen
         játék futtatására tervezték őket, másra nem alkalmasak. A játéktermek a kilencvenes években, elsősorban a
         konzolok megjelenése miatt mára teljesen kihaltak, és szinte kizárólag Japánban lehet találkozni velük-de még
         itthon is fellelhetőek játéktermek-, ahol a játékterem-kultúra egyáltalán nem halt ki. Mára az arcade / árkád
@@ -62,8 +65,8 @@
     </p>
     <h1>Konzol</h1>
     <p>
-        <br><img src="../IMG/console.jpg" width="500" height="250"><br><br>
-        A videojáték konzolok az ezredfordulóig kizárólag játékok futtatatására létrehozott gépek voltak, úgynevezett
+        <br><img alt="Konzol játékok" src="../IMG/console.jpg" width="500" height="250"><br><br>
+        A videojáték <mark> konzolok </mark> az ezredfordulóig kizárólag játékok futtatatására létrehozott gépek voltak, úgynevezett
         fix hardverrel: vagyis minden egyes gép előre meghatározott specifikáció szerint készült, függetlenül attól,
         hogy mikor gyártották őket. A gyártók bizonyos időközönként lecserélik a gépeket: ezt nevezzük
         generációváltásnak.(Microsoft Xbox, Xbox 360, Xbox One) Egy generációváltás általában 5-6 évente következik be,
@@ -76,8 +79,8 @@
     </p>
     <h1>PC</h1>
     <p>
-        <br><img src="../IMG/pc.jpg" width="500" height="250"><br><br>
-        A PC, azaz a személyi számítógép a világ legelterjedtebb platformja, de videojáték szempontjából nem a
+        <br><img alt="PC játékok" src="../IMG/pc.jpg" width="500" height="250"><br><br>
+        A <mark> PC </mark>, azaz a személyi számítógép a világ legelterjedtebb platformja, de videojáték szempontjából nem a
         legjelentősebb. A mennyiséget tekintve ugyan több van belőle a piacon, mint konzolból, de ezek többsége nem
         játékra, hanem irodai felhasználásra készült. Éppen ezért a modern videojáték készítő kiadók is elsősorban
         konzolra fejlesztenek, hiszen ott sokkal magasabb a haszonkulcs, a kötött hardver miatt egyszerűbb a fejlesztés.
@@ -98,6 +101,23 @@
         teljesítményt és minőséget produkálja.
     </p>
     <h2 style="font-size:20px; padding: 5.5px 0">Készítette: Faragó Rolland és Ogunde Edwin</h2>
+</div>
+</main>
+<div class="sidebox">
+	<p>
+		Neked melyik a kedvenc platformod?<br>
+	</p>
+	<h1>Arcade</h1>
+	<input style=" display: block; margin-left: auto; margin-right: auto" type="radio" name="favor"
+    	value="arcade"><br>
+    <h1>Konzolok</h1>
+	<input style=" display: block; margin-left: auto; margin-right: auto" type="radio" name="favor" value="console"
+    	checked><br>
+    <h1>PC</h1>
+	<input style=" display: block; margin-left: auto; margin-right: auto" type="radio" name="favor"
+    	value="pc"><br>
+
+    <input style=" display: block; margin-left: auto; margin-right: auto" type="submit" value="Szavazat küldése küldése">
 </div>
 
 </body>
